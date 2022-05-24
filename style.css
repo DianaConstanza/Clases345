@@ -8,7 +8,8 @@ nav {
     font-weight: bold;
     width: auto;
     height: 2cm;
-    padding: 1%; }
+    padding: 1%;    }
+
 button {
     align-content: center;
     text-align: center;
@@ -18,8 +19,8 @@ button {
     font-size: large;
     font-weight: bold;
     width: fit-content;
-    padding:0%
-}
+    padding:0%;    }
+
 footer {
     background-image: url(https://media.istockphoto.com/vectors/cute-cat-paws-footprint-seamless-pattern-background-vector-id1255261549?b=1&k=6&m=1255261549&s=170667a&w=0&h=fH8GQzUOvTVYbVYd1gyJn5G1rqqcAmxATim-o635L6M=);
     text-align: center;
@@ -29,37 +30,44 @@ footer {
     font-weight: bold;
     width: auto;
     height: 2cm;
-    padding: 1cm; }
+    padding: 1cm;   }
+
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border: sandybrown;  }
+    border: sandybrown;    }
 
-h1 {text-align: center;
+h1 {
+    text-align: center;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
     font-weight: bold;
-    border: sandybrown;}
-h2 {text-align: center;
+    border: sandybrown;    }
+
+h2 {
+    text-align: center;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: larger;
-    font-weight:400;}
-h3 {text-align: center;
+    font-weight:400;   }
+
+h3 {
+    text-align: center;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    font-weight:400;}
+    font-weight:400;   }
+
 p {
     text-align: center;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
-    font-weight: 300;
-}
+    font-weight: 300;   }
+
 form {
     border: 1ch;
     border-color: black;
@@ -67,5 +75,4 @@ form {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
-    font-weight: 300
-} 
+    font-weight: 300;   } 

@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>El color de tu gato, ¿qué significa?</title>
-<head>
-    <nav>
-        <div>
+
+    <nav class="navbar sticky-top bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+        </div>
+    
+        <div id="navbar">
             <ul role="menu" class="barra-de-navegación">
-                <button> <a title="Inicio" href="index.html">Inicio</a></li> </button>
-                <button> <a title="Quienes Somos" href="quienes-somos.html">Quienes Somos</a></li> </button>
-                <button> <a title="Contacto" href="contacto.html">Contacto</a> </button>
+                <a title="Inicio" href="index.html" type="button" class="btn btn-outline-warning">Inicio</a> </li>
+                <a title="Quienes Somos" href="quienes-somos.html" type="button" class="btn btn-outline-warning">Quienes Somos</a></li>
+                <a title="Contacto" href="contacto.html" type="button" class="btn btn-outline-warning">Contacto</a>
             </ul>
         </div>
     </nav>
@@ -20,11 +26,33 @@
 <body>
     <h1>El color de tu gato y su significado</h1>
     <h2>Dependiendo del lugar del planeta, el tono del pelaje de un felino puede tener un significado negativo o positivo; puede ser relativo a la buena o mala suerte, al éxito empresarial o económico e incluso aparecen vinculados a la protección o a la pasión</h1>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active" width="400px">
+                <img src="https://www.central-cats.com/wp-content/uploads/2020/10/Central-Cats-Slider-C.jpg" class="d-block w-100" alt="...">
+            </div>
+             <div class="carousel-item">
+                <img src="https://www.amcvetlondon.co.uk/wp-content/uploads/blog_banner_insuring_pets.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://brighteyesphotosdc.com/wp-content/uploads/2016/01/BEP_Slider_image_test-1400x600.jpg" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    
     <p>Los colores siempre significan algo: elevan o bajan nuestro ánimo, nos transmiten paz o nerviosismo y otras muchas cosas. Pues bien, el color de tu gato también tiene un significado.</p>
 
 <hr>
     <img src="https://misanimales.com/wp-content/uploads/2016/01/significado-del-color-de-tu-gato.jpg?auto=webp&quality=45&width=1920&crop=16:9,smart,safe" alt="gatos" class="center">
-<hr>
+    
     <h2>Lo interesante de este tema es que no todos los colores de los gatos significan lo mismo en todos los lugares, por lo que veremos sólo los más representativos.</h2>
 <br>
 <br>
@@ -59,5 +87,7 @@
 <footer>
         <h3>DianaConstanza</h3>
 </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

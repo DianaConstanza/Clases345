@@ -1,28 +1,42 @@
-nav {
-    background-image: url(https://media.istockphoto.com/vectors/cute-cat-paws-footprint-seamless-pattern-background-vector-id1255261549?b=1&k=6&m=1255261549&s=170667a&w=0&h=fH8GQzUOvTVYbVYd1gyJn5G1rqqcAmxATim-o635L6M=);
-    text-align: center;
-    text-size-adjust: 1cm;
-    color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-    font-weight: bold;
-    width: auto;
-    height: 2cm;
-    padding: 1%;    }
 
-button {
-    align-content: center;
+nav {
+    background-image: url(https://cdn.pixabay.com/photo/2020/09/26/16/06/cats-5604495_960_720.png);
+    position: relative;
     text-align: center;
     text-size-adjust: 1cm;
+    text-decoration: none;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     font-weight: bold;
-    width: fit-content;
-    padding:0%;    }
+    width: 100%;
+    height: 2cm; 
+    padding: 1cm;
+}
+
+#navbar a:hover {
+    background-color: none;
+    color: rgb(12, 11, 11);
+}
+
+a:link {
+    color: black;
+  }
+  
+a:visited {
+    color: grey;
+  }
+  
+a:hover {
+    color: burlywood;
+  }
+  
+a:active {
+    color: rgb(145, 145, 38);
+  } 
 
 footer {
-    background-image: url(https://media.istockphoto.com/vectors/cute-cat-paws-footprint-seamless-pattern-background-vector-id1255261549?b=1&k=6&m=1255261549&s=170667a&w=0&h=fH8GQzUOvTVYbVYd1gyJn5G1rqqcAmxATim-o635L6M=);
+    background-image: url(https://cdn.pixabay.com/photo/2020/09/26/16/06/cats-5604495_960_720.png);
     text-align: center;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -30,14 +44,16 @@ footer {
     font-weight: bold;
     width: auto;
     height: 2cm;
-    padding: 1cm;   }
+    padding: 1cm;   
+}
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border: sandybrown;    }
+    border: sandybrown;    
+}
 
 h1 {
     text-align: center;
@@ -45,28 +61,32 @@ h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
     font-weight: bold;
-    border: sandybrown;    }
+    border: sandybrown;    
+}
 
 h2 {
     text-align: center;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: larger;
-    font-weight:400;   }
+    font-weight:400;   
+}
 
 h3 {
     text-align: center;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
-    font-weight:400;   }
+    font-weight:400;   
+}
 
 p {
     text-align: center;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
-    font-weight: 300;   }
+    font-weight: 300;   
+}
 
 form {
     border: 1ch;
@@ -75,4 +95,5 @@ form {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
-    font-weight: 300;   } 
+    font-weight: 300;   
+} 

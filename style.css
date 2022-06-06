@@ -2,6 +2,9 @@
 nav {
     background-image: url(https://cdn.pixabay.com/photo/2020/09/26/16/06/cats-5604495_960_720.png);
     position: relative;
+    align-items: center;
+    align-content: center;
+    align-self: center;
     text-align: center;
     text-size-adjust: 1cm;
     text-decoration: none;
@@ -17,6 +20,10 @@ nav {
 #navbar a:hover {
     background-color: none;
     color: rgb(12, 11, 11);
+}
+
+#search {
+    position: relative;
 }
 
 a:link {
